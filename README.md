@@ -1,0 +1,1 @@
+this application will repointer excel connections and/or change excel connection names. 
