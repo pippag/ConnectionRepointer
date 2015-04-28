@@ -1,0 +1,17 @@
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\bin\Release\ReportConnectionChanger.exe.config
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\obj\Release\Interop.Microsoft.Office.Core.dll
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\obj\Release\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\obj\Release\Interop.VBIDE.dll
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\obj\Release\ReportConnectionChanger.csproj.ResolveComReference.cache
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\bin\Release\ReportConnectionChanger.exe.manifest
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\bin\Release\ReportConnectionChanger.application
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\bin\Release\ReportConnectionChanger.exe
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\bin\Release\ReportConnectionChanger.pdb
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\obj\Release\ReportConnectionChanger.csprojResolveAssemblyReference.cache
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\obj\Release\ReportConnectionChanger.Form1.resources
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\obj\Release\ReportConnectionChanger.Properties.Resources.resources
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\obj\Release\ReportConnectionChanger.csproj.GenerateResource.Cache
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\obj\Release\ReportConnectionChanger.exe.manifest
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\obj\Release\ReportConnectionChanger.application
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\obj\Release\ReportConnectionChanger.exe
+C:\Repo\ReportConnectionChanger\ReportConnectionChanger\obj\Release\ReportConnectionChanger.pdb
