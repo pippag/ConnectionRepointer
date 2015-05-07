@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReportConnectionChanger.exe" size="16384">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReportConnectionChanger.exe" size="17408">
       <assemblyIdentity name="ReportConnectionChanger" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>hYJLW3YWlQmC9h40JtIdgdwmpQelqCSIsNluyrCxlf4=</dsig:DigestValue>
+        <dsig:DigestValue>avDJnSkEHtnY841d0RFDATW3ru0uS0GXAnGJKWIwTp8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

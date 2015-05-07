@@ -37,10 +37,21 @@ namespace ReportConnectionChanger
                 {
                     Excel.Application xlApp = new Excel.Application();
                     Excel.Workbook xlWorkBook = xlApp.Workbooks.Open(fileNames[i], 0, false, 5, "", "", true, Microsoft.Office.Interop.Excel.XlPlatform.xlWindows, "\t", true, false, 0, true, 1, 0);
-                    
+
                     foreach (Excel.WorkbookConnection wc in xlWorkBook.Connections)
                     {
                         var conn = xlWorkBook.Connections.Item(1);
+                        int count = xlWorkBook.Connections.Count;
+                        int iCount; 
+                        if (count > 1)
+                        {
+                           
+                            for (iCount = count; iCount >= 2; iCount--)
+                            {
+                                xlWorkBook.Connections.Item(iCount).Delete();
+                            }
+                        }
+
                         string modText = conn.OLEDBConnection.Connection;
                         string nameConnection = connName.Text; 
 
@@ -55,6 +66,8 @@ namespace ReportConnectionChanger
                                 wc.Name = connName.Text;
                             }
                             modText = Regex.Replace(modText, "Data Source=" + origConn.Text, "Data Source=" + newConnString.Text);
+                            modText = Regex.Replace(modText, "Initial Catalog=" + origInitCat.Text, "Initial Catalog=" + newInitCat.Text);
+
                             conn.OLEDBConnection.Connection = modText;
                         }
                         catch (Exception e1)
